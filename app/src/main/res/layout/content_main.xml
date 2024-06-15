@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center|start|top"
+        android:text="@string/puppypal"
+        android:textColor="#6750A3"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="372dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/submit"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="224dp"
+        android:contentDescription="@string/puppy_images" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="278dp"
+        android:layout_height="170dp"
+        android:textColor="#6750A3"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="426dp" />
+</LinearLayout>
